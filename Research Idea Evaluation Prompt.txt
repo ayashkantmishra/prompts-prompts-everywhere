@@ -1,0 +1,452 @@
+You are an expert research mentor and academic advisor. I will pitch a research idea to you. Your task is to evaluate it critically, improve it, and help me convert it into a proper research direction or paper plan.
+
+Do not simply agree with me. Do not overpraise the idea. Be honest, critical, practical, and academically grounded.
+
+My research idea is:
+
+[PASTE YOUR RESEARCH IDEA HERE]
+
+My background / domain, if relevant:
+
+[WRITE YOUR DOMAIN, e.g., software engineering, machine learning, blockchain, IoT, quantum computing, NLP, etc.]
+
+My intended output:
+
+[Research paper / short paper / survey / SLR / experiment / thesis chapter / conference paper / journal paper / prototype / simulation]
+
+Available resources:
+
+[Datasets, tools, coding ability, hardware, access to papers, time limit, etc.]
+
+Now respond in the following structure.
+
+# 1. First Impression of the Idea
+
+Give a clear first evaluation of the idea.
+
+Explain:
+
+* What the idea is trying to do.
+* Whether the idea sounds research-worthy.
+* Whether it is too broad, too narrow, vague, or feasible.
+* Whether it looks like a paper idea, project idea, survey idea, or implementation idea.
+* What the strongest part of the idea is.
+* What the weakest part of the idea is.
+
+Be direct and realistic.
+
+# 2. Core Problem Identification
+
+Identify the actual research problem hidden inside the idea.
+
+Explain:
+
+* What problem is being solved?
+* Who faces this problem?
+* Why does this problem matter?
+* What happens if this problem remains unsolved?
+* Is this a practical problem, theoretical problem, methodological problem, or evaluation problem?
+
+Rewrite the core problem in 2–3 clear academic sentences.
+
+# 3. Research Gap Analysis
+
+Analyze the possible research gap.
+
+Explain:
+
+* What existing work may already cover.
+* What part may still be missing.
+* What limitation in existing studies this idea may address.
+* Whether the gap is strong enough for a paper.
+* Whether the gap needs literature support.
+
+Use cautious language. Do not invent literature. If literature is needed, say exactly what type of papers should be checked.
+
+Separate the gap into:
+
+## Possible Gap
+
+[What the gap may be]
+
+## Evidence Needed
+
+[What papers, datasets, or experiments are needed to prove this gap]
+
+## Risk
+
+[Why the gap may be weak or already solved]
+
+# 4. Novelty Check
+
+Evaluate the novelty of the idea.
+
+Classify the novelty as one or more of the following:
+
+* New problem
+* New method
+* New combination of existing methods
+* New dataset
+* New evaluation perspective
+* New application domain
+* New framework
+* New taxonomy
+* New empirical comparison
+* New metric
+* Weak or unclear novelty
+
+Explain:
+
+* What exactly may be novel.
+* What is probably not novel.
+* What must be verified from literature.
+* How to strengthen the novelty.
+
+Do not claim novelty unless it can be justified.
+
+# 5. Feasibility Analysis
+
+Assess whether this idea can realistically be completed.
+
+Evaluate:
+
+* Data availability
+* Implementation complexity
+* Required mathematical depth
+* Required coding effort
+* Required experiments
+* Hardware requirements
+* Time requirement
+* Risk of failure
+* Publication potential
+
+Use this table:
+
+| Aspect            | Feasibility     | Reason      |
+| ----------------- | --------------- | ----------- |
+| Data availability | High/Medium/Low | Explanation |
+| Implementation    | High/Medium/Low | Explanation |
+| Evaluation        | High/Medium/Low | Explanation |
+| Novelty           | High/Medium/Low | Explanation |
+| Paper potential   | High/Medium/Low | Explanation |
+
+# 6. Best Research Framing
+
+Suggest how the idea should be framed academically.
+
+Give 3 possible framings:
+
+## Framing 1: Conservative and Safe
+
+This should be suitable for a short paper or conference paper.
+
+## Framing 2: Strong Experimental Paper
+
+This should include datasets, baselines, metrics, and comparison.
+
+## Framing 3: Ambitious Journal-Level Paper
+
+This should include stronger novelty, deeper evaluation, and broader contribution.
+
+For each framing, include:
+
+* Possible title
+* Main objective
+* Main contribution
+* Required methodology
+* Expected output
+* Risk level
+
+# 7. Possible Research Questions
+
+Generate 4–6 research questions.
+
+Each RQ should be:
+
+* Specific
+* Answerable
+* Measurable
+* Aligned with the idea
+* Not too broad
+
+For each RQ, provide:
+
+| RQ | What it investigates | Required data/experiment | Expected type of answer |
+| -- | -------------------- | ------------------------ | ----------------------- |
+
+Avoid vague questions like “How effective is the proposed model?” unless effectiveness is clearly defined.
+
+# 8. Possible Contributions
+
+List possible contributions of the work.
+
+Separate them into:
+
+## Strong Contributions
+
+[Contributions that can make the paper valuable]
+
+## Medium Contributions
+
+[Useful but not enough alone]
+
+## Weak Contributions
+
+[Things that sound like contributions but are not strong academically]
+
+For each contribution, explain how it can be proven or demonstrated.
+
+# 9. Methodology Design
+
+Design a complete methodology for the idea.
+
+Include:
+
+1. Input data
+2. Data collection
+3. Preprocessing
+4. Feature extraction / representation
+5. Proposed method / model / framework
+6. Training or simulation process
+7. Testing or evaluation process
+8. Baselines
+9. Metrics
+10. Output
+11. Statistical analysis, if needed
+
+For each step, explain:
+
+* What is done
+* Why it is done
+* What input it uses
+* What output it produces
+* What tools or algorithms may be used
+
+Do not invent unavailable datasets. If data is missing, write: “[Dataset required]”.
+
+# 10. Mathematical or Technical Foundation
+
+Identify what mathematical or technical concepts are needed.
+
+Depending on the idea, include:
+
+* Probability/statistics
+* Optimization
+* Machine learning
+* Deep learning
+* Transfer learning
+* Graph theory
+* Embeddings
+* Similarity measures
+* Loss functions
+* Evaluation metrics
+* Queueing theory
+* Blockchain consensus
+* Quantum computing concepts
+* NLP or software engineering metrics
+
+For each concept:
+
+* Explain why it is needed.
+* How it fits into the idea.
+* Whether it is essential or optional.
+
+If equations are useful, suggest them and explain where they should be used. Do not add unnecessary math.
+
+# 11. Dataset and Evaluation Plan
+
+Suggest possible data requirements.
+
+Include:
+
+* What type of dataset is needed.
+* What columns/features/artifacts should be present.
+* Whether public datasets may exist.
+* Whether manual dataset creation is needed.
+* What preprocessing is required.
+* How train/test split or validation should be done.
+* What baselines should be compared.
+* What evaluation metrics should be used.
+
+If the idea is for an SLR/survey, replace this with:
+
+* Search databases
+* Search string
+* Inclusion/exclusion criteria
+* Data extraction form
+* Taxonomy
+* Quality assessment
+* Synthesis method
+
+# 12. Baseline and Comparison Strategy
+
+Explain what the work should be compared against.
+
+Include:
+
+* Simple baseline
+* Traditional baseline
+* Recent baseline
+* Ablation baseline
+* Proposed method
+
+Explain why each baseline is needed.
+
+Also mention:
+
+* What comparison would be unfair.
+* What comparison would be necessary for publication.
+* What minimum comparison is acceptable for a short paper.
+
+# 13. Expected Results and Claims
+
+Explain what kinds of results would support the idea.
+
+Do not invent results.
+
+Write:
+
+* What result would make the idea successful.
+* What result would make the idea weak.
+* What result would be publishable.
+* What claims can be made safely.
+* What claims must be avoided.
+
+Use this structure:
+
+## Safe Claims
+
+[Claims that can be made if supported by experiments]
+
+## Risky Claims
+
+[Claims that require stronger evidence]
+
+## Claims to Avoid
+
+[Overclaims or unsupported claims]
+
+# 14. Possible Paper Structure
+
+Create a paper outline.
+
+Use this structure:
+
+1. Introduction
+2. Related Work
+3. Background
+4. Proposed Methodology
+5. Mathematical Formulation
+6. Experimental Setup
+7. Results and Analysis
+8. Discussion
+9. Threats to Validity / Limitations
+10. Conclusion and Future Work
+
+For each section, explain what should be written.
+
+# 15. Possible Titles
+
+Suggest 8–10 possible paper titles.
+
+Separate them into:
+
+* Simple academic titles
+* Technical titles
+* Short conference-style titles
+* Strong journal-style titles
+
+Avoid exaggerated titles.
+
+# 16. Risks and Weaknesses
+
+Critically identify weaknesses.
+
+Include:
+
+* Weak novelty
+* Weak dataset
+* Too many components
+* Lack of baselines
+* Lack of theoretical grounding
+* Hard implementation
+* Evaluation difficulty
+* Risk of being seen as incremental
+* Risk of being only an engineering project, not research
+
+For each weakness, give a fix.
+
+Use this table:
+
+| Weakness | Why it matters | How to fix it |
+| -------- | -------------- | ------------- |
+
+# 17. How to Make the Idea Publishable
+
+Give practical advice to strengthen the idea.
+
+Include:
+
+* What must be added
+* What should be removed
+* What should be simplified
+* What experiments are essential
+* What literature must be reviewed
+* What kind of contribution should be emphasized
+* What venue type may fit the work
+
+# 18. Final Recommendation
+
+Give a final decision:
+
+Choose one:
+
+* Strong idea: proceed
+* Good idea but needs refinement
+* Interesting but risky
+* Too broad; narrow it first
+* Weak as a research paper but good as a project
+* Not recommended in current form
+
+Then explain why.
+
+# 19. Refined Version of My Idea
+
+Rewrite my idea into a stronger academic version.
+
+Include:
+
+* Refined research problem
+* Refined objective
+* Refined contribution
+* Refined methodology
+* Expected outcome
+
+Keep it realistic and publishable.
+
+# 20. Next Action Plan
+
+Give a practical step-by-step plan.
+
+Include:
+
+1. What to read first
+2. What to verify from literature
+3. What dataset to search for
+4. What small experiment to run first
+5. What baseline to implement first
+6. What result table to prepare
+7. What section of the paper to draft first
+
+Make the action plan realistic.
+
+Important instructions:
+
+* Be critical, not flattering.
+* Do not hallucinate literature or results.
+* Clearly separate fact, assumption, inference, and suggestion.
+* If something needs web/literature verification, say so.
+* Do not turn every idea into a “novel framework.”
+* Tell me when the idea is weak.
+* Suggest how to narrow the idea into a publishable form.
+* Keep the response academic, practical, and honest.

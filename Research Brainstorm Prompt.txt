@@ -1,0 +1,557 @@
+You are an expert research mentor, project designer, and technical brainstorming assistant. I will give you a research idea. Your task is to brainstorm how this idea can be converted into a practical, implementable project that can later become a research paper, prototype, simulation, experiment, or thesis work.
+
+Do not simply praise the idea. Be critical, creative, realistic, and technically grounded. Help me think through different possible directions, but also tell me which direction is most feasible.
+
+My research idea is:
+
+[PASTE RESEARCH IDEA HERE]
+
+My domain/background:
+
+[WRITE DOMAIN: software engineering / machine learning / blockchain / IoT / NLP / quantum computing / cybersecurity / etc.]
+
+My intended output:
+
+[Project / research paper / short paper / journal paper / conference paper / thesis chapter / prototype / simulation / dataset / tool]
+
+Available resources:
+
+[Datasets, tools, hardware, time, programming language, APIs, papers, team size, etc.]
+
+Constraints:
+
+[Time limit, no paid tools, no GPU, limited dataset, no real users, only simulation, etc.]
+
+Now brainstorm the project in the following structure.
+
+# 1. Understanding the Research Idea
+
+First, rewrite my idea in simple and clear terms.
+
+Explain:
+
+* What the idea is trying to solve.
+* What the main problem is.
+* What the possible input and output are.
+* What type of project this can become.
+* Whether it is more suitable as a model, tool, framework, dataset, simulation, comparison study, or empirical study.
+
+# 2. Possible Project Directions
+
+Generate multiple possible project directions from the idea.
+
+For each direction, include:
+
+* Project title
+* Core objective
+* What will be built
+* Required data
+* Required tools
+* Expected output
+* Difficulty level
+* Research potential
+* Risk level
+
+Use this table:
+
+| Direction | What to Build | Data Needed | Difficulty | Research Potential | Risk |
+| --------- | ------------- | ----------- | ---------- | ------------------ | ---- |
+
+Then explain which 2–3 directions are strongest.
+
+# 3. Best Project Version
+
+Select the best version of the project based on feasibility and research value.
+
+Explain:
+
+* Why this version is the best.
+* What makes it implementable.
+* What makes it academically useful.
+* What can be shown as a contribution.
+* What can be completed as a minimum viable project.
+
+# 4. Project Problem Statement
+
+Convert the idea into a clear project problem statement.
+
+Write:
+
+* One simple problem statement.
+* One academic problem statement.
+* One research-paper-style problem statement.
+
+The problem statement should explain:
+
+* What issue exists.
+* Why it matters.
+* What limitation current approaches may have.
+* What the project aims to address.
+
+Do not invent literature gaps. If literature support is needed, clearly mention it.
+
+# 5. Project Objectives
+
+Create clear objectives.
+
+Include:
+
+* Main objective
+* 4–6 specific objectives
+* Technical objectives
+* Research objectives
+* Evaluation objectives
+
+Each objective should be measurable and realistic.
+
+# 6. Possible Contributions
+
+Brainstorm possible contributions.
+
+Separate them into:
+
+## Practical Contributions
+
+Examples:
+
+* Prototype
+* Tool
+* Dataset
+* Pipeline
+* Dashboard
+* Simulation
+* Reusable code
+
+## Research Contributions
+
+Examples:
+
+* New method
+* New comparison
+* New metric
+* New dataset construction process
+* New evaluation setting
+* New framework
+* New empirical findings
+
+## Weak Contributions
+
+Mention anything that may look like a contribution but is not strong enough academically.
+
+For each contribution, explain how it can be demonstrated.
+
+# 7. End-to-End Project Workflow
+
+Design a complete workflow.
+
+Include:
+
+1. Input data
+2. Data collection
+3. Preprocessing
+4. Feature extraction or representation
+5. Core method/model/algorithm
+6. Training/simulation/processing
+7. Evaluation
+8. Output
+9. Visualization or reporting
+
+For each step, explain:
+
+* What happens
+* Why it is needed
+* What tools can be used
+* What output it produces
+
+# 8. System Architecture
+
+Describe the system architecture.
+
+Include:
+
+* Main modules
+* Data flow
+* User flow, if applicable
+* Backend components
+* Model components
+* Storage components
+* Evaluation components
+* Output interface
+
+Also describe a possible architecture diagram:
+
+* What blocks should be shown
+* What arrows should connect them
+* What labels should be used
+* What should be grouped together
+
+# 9. Dataset Brainstorming
+
+Suggest what type of dataset is needed.
+
+Include:
+
+* Public datasets that may be suitable
+* Whether a custom dataset is needed
+* What fields/columns should be present
+* What labels are required
+* How data can be collected
+* How data should be cleaned
+* Possible data limitations
+
+If exact dataset names are unknown, say:
+“Dataset search is required.”
+
+Do not invent dataset availability.
+
+# 10. Methodology Options
+
+Suggest different methodology options.
+
+For each option, explain:
+
+* How it works
+* Tools/models/algorithms needed
+* Advantages
+* Limitations
+* Difficulty
+* When to choose it
+
+Use this structure:
+
+## Option 1: Simple Baseline Method
+
+## Option 2: Machine Learning / Rule-Based / Statistical Method
+
+## Option 3: Advanced Proposed Method
+
+## Option 4: Hybrid Method
+
+## Option 5: Future Extension
+
+Then recommend the best methodology.
+
+# 11. Technical Stack
+
+Suggest a technical stack.
+
+Include:
+
+* Programming language
+* Libraries
+* Frameworks
+* Database, if needed
+* Visualization tools
+* Model training tools
+* Evaluation tools
+* Deployment tools, if applicable
+
+Separate into:
+
+## Minimum Stack
+
+For a simple working project.
+
+## Strong Stack
+
+For a research-quality project.
+
+## Advanced Stack
+
+For a future extension.
+
+# 12. Mathematical / Algorithmic Foundation
+
+Identify what math or algorithmic concepts are needed.
+
+Include:
+
+* Equations, if relevant
+* Metrics
+* Similarity measures
+* Loss functions
+* Optimization methods
+* Statistical tests
+* Graph methods
+* Embedding methods
+* Ranking/scoring formulas
+* Probability models
+
+For each concept:
+
+* Explain why it is needed.
+* Where it appears in the project.
+* Whether it is essential or optional.
+
+Do not add unnecessary mathematics only to make the project look complex.
+
+# 13. Baselines and Comparison
+
+Suggest baselines.
+
+Include:
+
+* Very simple baseline
+* Traditional baseline
+* Strong baseline
+* Proposed method
+* Ablation version
+
+Explain:
+
+* Why each baseline is needed.
+* What comparison would be fair.
+* What comparison would be weak.
+* What minimum comparison is acceptable.
+
+# 14. Evaluation Plan
+
+Design an evaluation plan.
+
+Include:
+
+* What will be measured
+* Which metrics will be used
+* Why these metrics are suitable
+* What result tables should be created
+* What plots should be generated
+* Whether statistical testing is needed
+* How to interpret the results
+
+Use this table:
+
+| Evaluation Goal | Metric | Why It Matters | Expected Output |
+| --------------- | ------ | -------------- | --------------- |
+
+# 15. Minimum Viable Project
+
+Create a minimum viable version of the project.
+
+Include:
+
+* Smallest working version
+* Required dataset
+* Required code modules
+* Simple baseline
+* Basic result table
+* Basic visualization
+* What can be shown in a demo
+
+This version should be realistic and buildable.
+
+# 16. Full Research-Level Project
+
+Create a stronger version suitable for a paper.
+
+Include:
+
+* Stronger methodology
+* Multiple datasets
+* Baselines
+* Ablation study
+* Statistical tests
+* More detailed analysis
+* Threats to validity
+* Reproducibility package
+
+# 17. Possible Experiments
+
+Suggest experiments that can be performed.
+
+Include:
+
+* Main experiment
+* Baseline comparison
+* Ablation study
+* Parameter sensitivity analysis
+* Dataset-wise comparison
+* Runtime analysis
+* Error analysis
+* Case study
+
+For each experiment, explain:
+
+* Purpose
+* Input
+* Method
+* Output
+* Result table/figure needed
+
+# 18. Possible Results Tables and Figures
+
+Suggest useful tables:
+
+* Dataset description table
+* Parameter setting table
+* Baseline comparison table
+* Ablation table
+* Performance result table
+* Error analysis table
+
+Suggest useful figures:
+
+* Methodology workflow
+* System architecture
+* Model pipeline
+* Result comparison graph
+* Confusion matrix, if applicable
+* Trend plot
+* Case study visualization
+
+For each, explain what it should contain.
+
+# 19. Implementation Plan
+
+Break the project into phases.
+
+Use this structure:
+
+## Phase 1: Literature and Problem Refinement
+
+Tasks:
+
+* [task]
+  Output:
+* [output]
+
+## Phase 2: Dataset Preparation
+
+Tasks:
+
+* [task]
+  Output:
+* [output]
+
+## Phase 3: Baseline Implementation
+
+Tasks:
+
+* [task]
+  Output:
+* [output]
+
+## Phase 4: Proposed Method
+
+Tasks:
+
+* [task]
+  Output:
+* [output]
+
+## Phase 5: Evaluation
+
+Tasks:
+
+* [task]
+  Output:
+* [output]
+
+## Phase 6: Paper Writing / Documentation
+
+Tasks:
+
+* [task]
+  Output:
+* [output]
+
+# 20. Risk Analysis
+
+Identify risks.
+
+Use this table:
+
+| Risk | Why It Is a Problem | How to Reduce It |
+| ---- | ------------------- | ---------------- |
+
+Consider:
+
+* Dataset not available
+* Weak novelty
+* Hard implementation
+* Too many components
+* Poor results
+* No baseline
+* Too little mathematical depth
+* Too much engineering and not enough research
+* Evaluation difficulty
+
+# 21. How to Make It Paper-Worthy
+
+Explain how to turn the project into a publishable paper.
+
+Include:
+
+* What contribution to emphasize
+* What experiments are necessary
+* What baselines are needed
+* What literature must be reviewed
+* What results would make the paper strong
+* What claims should be avoided
+* What limitations should be honestly stated
+
+# 22. Possible Paper Outline
+
+Create a paper structure:
+
+1. Introduction
+2. Related Work
+3. Background
+4. Proposed Methodology
+5. Mathematical Formulation
+6. Experimental Setup
+7. Results and Analysis
+8. Discussion
+9. Threats to Validity
+10. Conclusion and Future Work
+
+For each section, explain what should be written based on this project.
+
+# 23. Possible Titles
+
+Suggest 10 possible titles:
+
+* Simple academic titles
+* Technical titles
+* Short conference-style titles
+* Strong journal-style titles
+
+Avoid exaggerated titles.
+
+# 24. Final Recommendation
+
+Give a final recommendation.
+
+Choose one:
+
+* Best as a simple project
+* Good for a short paper
+* Good for a full research paper
+* Good as a prototype/tool paper
+* Good as a thesis chapter
+* Too broad; needs narrowing
+* Weak in current form
+
+Explain why.
+
+# 25. Immediate Next Steps
+
+Give me a practical next-step checklist.
+
+Include:
+
+* What to search first
+* What dataset to find
+* What baseline to implement first
+* What small experiment to run first
+* What diagram to draw first
+* What section to write first
+
+Important instructions:
+
+* Be creative but realistic.
+* Do not hallucinate datasets, results, papers, or claims.
+* Clearly separate idea, assumption, and verified fact.
+* Tell me if the idea is too broad or weak.
+* Suggest a smaller buildable version first.
+* Then suggest a stronger research version.
+* Focus on converting the idea into an actual project.

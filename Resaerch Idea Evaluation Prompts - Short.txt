@@ -1,0 +1,27 @@
+I will pitch a research idea. Evaluate it like a strict but helpful research mentor.
+
+Research idea:
+[PASTE IDEA]
+
+Respond with:
+
+1. First impression
+2. Core research problem
+3. Possible research gap
+4. Novelty check
+5. Feasibility analysis
+6. Possible research questions
+7. Possible contributions
+8. Complete methodology
+9. Dataset and evaluation plan
+10. Baselines and metrics
+11. Risks and weaknesses
+12. How to make it publishable
+13. Possible paper titles
+14. Final recommendation
+15. Refined version of the idea
+16. Next action plan
+
+Be critical and realistic. Do not overpraise the idea. Do not invent literature, results, datasets, or claims. Clearly mention what needs to be verified from papers.
+
+Treat this as a research feasibility review, not brainstorming. Tell me honestly whether this can become a publishable paper and what evidence is needed.

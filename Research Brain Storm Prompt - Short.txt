@@ -1,0 +1,42 @@
+I will give you a research idea. Brainstorm how to convert it into a practical project and research-paper-worthy implementation.
+
+Research idea:
+[PASTE IDEA]
+
+My domain:
+[WRITE DOMAIN]
+
+Available resources:
+[WRITE RESOURCES]
+
+Constraints:
+[WRITE CONSTRAINTS]
+
+Respond with:
+
+1. Clear interpretation of the idea
+2. Possible project directions
+3. Best project version
+4. Problem statement
+5. Objectives
+6. Possible contributions
+7. End-to-end workflow
+8. System architecture
+9. Dataset requirements
+10. Methodology options
+11. Technical stack
+12. Mathematical/algorithmic foundation
+13. Baselines
+14. Evaluation plan
+15. Minimum viable project
+16. Full research-level version
+17. Possible experiments
+18. Tables and figures needed
+19. Implementation phases
+20. Risks and fixes
+21. How to make it paper-worthy
+22. Possible titles
+23. Final recommendation
+24. Immediate next steps
+
+Be critical, creative, and realistic. Do not invent datasets, results, citations, or claims. Clearly mention what needs verification.

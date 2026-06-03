@@ -1,0 +1,592 @@
+# Handy LLM Prompts for Research Work
+
+## 1. Prompt for Improving a Research Idea
+
+I have a research idea. Your task is to refine it into a clear academic research direction.
+
+Research idea:
+[PASTE IDEA HERE]
+
+Explain:
+
+1. What the core problem is.
+2. Whether the idea is research-worthy.
+3. What gap it may address.
+4. What the possible research questions are.
+5. What methodology can be followed.
+6. What datasets, tools, or experiments may be needed.
+7. What the expected contribution can be.
+8. What risks or weaknesses the idea has.
+9. How to make the idea stronger for a paper.
+
+Do not exaggerate the novelty. Be critical and realistic.
+
+---
+
+## 2. Prompt for Creating Research Questions
+
+Based on the following topic, generate strong research questions for an academic paper or systematic literature review.
+
+Topic:
+[WRITE TOPIC HERE]
+
+Scope:
+[WRITE SCOPE HERE]
+
+Objectives:
+[WRITE OBJECTIVES HERE]
+
+Create:
+
+1. Main research objective.
+2. 4–8 research questions.
+3. For each RQ, explain what it investigates.
+4. For each RQ, suggest possible investigation queries or sub-questions.
+5. Mention what type of data is needed to answer each RQ.
+
+Keep the RQs specific, answerable, and aligned with the paper scope.
+
+---
+
+## 3. Prompt for Literature Review Writing
+
+You are helping me write the related work section of an academic paper.
+
+I will provide summaries of related papers. Use only the provided summaries. Do not invent citations, results, methods, or limitations.
+
+For each paper:
+
+* Explain what the paper did.
+* Mention the method or approach.
+* Mention the main finding, if provided.
+* Mention the limitation, if provided.
+* Explain how my work differs, only if I provide that information.
+
+Then write a connected related work section, not a paper-by-paper list.
+
+My paper topic:
+[WRITE TOPIC]
+
+My contribution:
+[WRITE CONTRIBUTION]
+
+Related papers:
+[PASTE PAPER SUMMARIES]
+
+Output:
+
+1. Related work section.
+2. Gap summary.
+3. How my work is positioned.
+4. Missing information needed.
+
+---
+
+## 4. Prompt for SLR Planning
+
+I want to conduct a systematic literature review.
+
+Topic:
+[WRITE TOPIC]
+
+Scope:
+[WRITE SCOPE]
+
+Time period:
+[WRITE YEAR RANGE]
+
+Databases:
+[WRITE DATABASES]
+
+Help me design a complete SLR protocol.
+
+Include:
+
+1. Background and motivation.
+2. Research questions.
+3. Search string.
+4. Alternative search strings.
+5. Inclusion criteria.
+6. Exclusion criteria.
+7. Screening process.
+8. Quality assessment criteria.
+9. Data extraction form.
+10. Classification/taxonomy scheme.
+11. Threats to validity.
+12. Expected outputs.
+
+Follow Kitchenham-style SLR structure. Do not make the scope too broad.
+
+---
+
+## 5. Prompt for Search String Generation
+
+Generate strong academic database search strings for the following review topic.
+
+Topic:
+[WRITE TOPIC]
+
+Main concepts:
+[CONCEPT 1]
+[CONCEPT 2]
+[CONCEPT 3]
+
+Databases:
+IEEE Xplore, ACM Digital Library, ScienceDirect, SpringerLink, Wiley, Scopus, Web of Science
+
+Create:
+
+1. Broad search string.
+2. Strict search string.
+3. Database-specific versions.
+4. Synonyms for each concept.
+5. Terms to avoid.
+6. Explanation of why each term is included.
+
+Use Boolean operators properly: AND, OR, quotation marks, and parentheses.
+
+---
+
+## 6. Prompt for Methodology Design
+
+Design a complete methodology for my research paper.
+
+Topic:
+[WRITE TOPIC]
+
+Problem:
+[WRITE PROBLEM]
+
+Objective:
+[WRITE OBJECTIVE]
+
+Available data:
+[WRITE DATA]
+
+Proposed idea:
+[WRITE IDEA]
+
+Create:
+
+1. End-to-end methodology.
+2. Step-by-step pipeline.
+3. Input and output of each step.
+4. Mathematical formulation, if applicable.
+5. Algorithm or pseudocode.
+6. Dataset preparation process.
+7. Evaluation metrics.
+8. Baselines.
+9. Ablation study plan.
+10. Possible diagrams and tables.
+
+Do not invent unavailable data or results. Mark missing information clearly.
+
+---
+
+## 7. Prompt for Methodology Diagram / Workflow
+
+Create a detailed prompt for generating a clean academic methodology diagram.
+
+Research topic:
+[WRITE TOPIC]
+
+Methodology steps:
+[PASTE STEPS]
+
+The diagram should show:
+
+1. Input data.
+2. Preprocessing.
+3. Feature extraction or representation.
+4. Proposed method/model.
+5. Training or processing stage.
+6. Evaluation stage.
+7. Output.
+8. Feedback loop, if applicable.
+
+Make the diagram suitable for an academic paper. Avoid presentation-style decoration. Keep it clean, formal, and publication-friendly.
+
+Describe:
+
+* Blocks
+* Arrows
+* Labels
+* Grouping
+* Color style
+* Layout direction
+* Figure caption
+
+---
+
+## 8. Prompt for Experimental Setup
+
+Write the experimental setup section for my paper.
+
+Use only the information I provide.
+
+Project:
+[WRITE PROJECT]
+
+Dataset:
+[WRITE DATASET DETAILS]
+
+Hardware:
+[WRITE HARDWARE]
+
+Software:
+[WRITE SOFTWARE]
+
+Models:
+[WRITE MODELS]
+
+Parameters:
+[WRITE PARAMETERS]
+
+Evaluation metrics:
+[WRITE METRICS]
+
+Baselines:
+[WRITE BASELINES]
+
+Write:
+
+1. Dataset description.
+2. Preprocessing.
+3. Model configuration.
+4. Training/testing setup.
+5. Evaluation metrics.
+6. Hardware/software environment.
+7. Reproducibility details.
+
+Do not invent missing values. Use “[Information required]” where needed.
+
+---
+
+## 9. Prompt for Results Analysis
+
+Analyze the following experimental results for an academic paper.
+
+Research objective:
+[WRITE OBJECTIVE]
+
+Methods compared:
+[WRITE METHODS]
+
+Metrics:
+[WRITE METRICS]
+
+Results table:
+[PASTE TABLE]
+
+Explain:
+
+1. What the table shows.
+2. Which method performs best.
+3. How much improvement is observed.
+4. Whether the improvement is consistent across metrics.
+5. Any unusual pattern.
+6. What conclusion can be drawn.
+7. What should not be overclaimed.
+8. How to write this in a paper.
+
+Do not claim statistical significance unless statistical tests are provided.
+
+---
+
+## 10. Prompt for Threats to Validity
+
+Write the threats to validity section for my paper.
+
+Paper type:
+[SLR / empirical study / simulation / model-based paper]
+
+Study details:
+[PASTE DETAILS]
+
+Write in a compact academic tone.
+
+Include only relevant categories:
+
+1. Internal validity.
+2. External validity.
+3. Construct validity.
+4. Conclusion validity.
+
+For each category:
+
+* Explain the possible threat.
+* Explain how it may affect the study.
+* Explain what was done to reduce the threat.
+
+Do not add generic threats that do not apply to the paper.
+
+---
+
+## 11. Prompt for Abstract Writing
+
+Write a compact academic abstract for my paper.
+
+Paper title:
+[WRITE TITLE]
+
+Problem:
+[WRITE PROBLEM]
+
+Objective:
+[WRITE OBJECTIVE]
+
+Method:
+[WRITE METHOD]
+
+Dataset/experiment:
+[WRITE DATASET/SETUP]
+
+Results:
+[WRITE RESULTS]
+
+Conclusion:
+[WRITE CONCLUSION]
+
+Requirements:
+
+* 150–220 words.
+* One paragraph.
+* Clear and formal.
+* No citations.
+* No unsupported claims.
+* Do not use exaggerated words such as “groundbreaking,” “revolutionary,” or “state-of-the-art” unless clearly proven.
+
+---
+
+## 12. Prompt for Conclusion Writing
+
+Write the conclusion section for my paper.
+
+Use only the following information:
+
+Problem addressed:
+[WRITE PROBLEM]
+
+Method proposed:
+[WRITE METHOD]
+
+Results obtained:
+[WRITE RESULTS]
+
+Main findings:
+[WRITE FINDINGS]
+
+Limitations:
+[WRITE LIMITATIONS]
+
+Future work:
+[WRITE FUTURE WORK]
+
+The conclusion should:
+
+1. Restate the problem.
+2. Summarize the proposed work.
+3. Mention the main findings.
+4. Mention implications.
+5. End with future work.
+
+Do not introduce new results or references.
+
+---
+
+## 13. Prompt for Response to Reviewers
+
+Help me write a polite and detailed response to reviewers.
+
+Reviewer comment:
+[PASTE COMMENT]
+
+What we changed:
+[WRITE CHANGE]
+
+Location of change:
+[SECTION / PAGE / LINE]
+
+Write:
+
+1. A respectful response.
+2. A clear explanation of the change.
+3. A revised manuscript text, if needed.
+4. A response if we disagree, written politely and academically.
+
+Tone:
+
+* Professional
+* Calm
+* Grateful
+* Specific
+* Not defensive
+
+---
+
+## 14. Prompt for Final Paper Proofreading
+
+Proofread the following paper section for final submission.
+
+Text:
+[PASTE TEXT]
+
+Rules:
+
+1. Correct grammar and sentence structure.
+2. Improve clarity.
+3. Keep the meaning unchanged.
+4. Do not rewrite heavily.
+5. Keep technical terms unchanged.
+6. Preserve citations, LaTeX commands, equations, and references.
+7. Avoid making the writing sound AI-generated.
+8. Maintain academic tone.
+
+Output:
+
+1. Revised text.
+2. List of important changes.
+3. Any unclear sentence that needs author confirmation.
+
+---
+
+## 15. Prompt for LaTeX Fixing
+
+Fix the following LaTeX code.
+
+LaTeX code:
+[PASTE CODE]
+
+Problem:
+[WRITE ISSUE]
+
+Requirements:
+
+1. Identify the error.
+2. Explain why it happens.
+3. Provide corrected LaTeX code.
+4. Keep the original structure as much as possible.
+5. Do not change the content unless required.
+6. Mention any package that needs to be added.
+
+---
+
+## 16. Prompt for Table Improvement
+
+Improve this academic table for a research paper.
+
+Table content:
+[PASTE TABLE]
+
+Purpose of table:
+[WRITE PURPOSE]
+
+Improve:
+
+1. Column names.
+2. Row organization.
+3. Compactness.
+4. Academic wording.
+5. Readability.
+6. Caption.
+7. Notes, if needed.
+
+Do not change the data values. Suggest a better layout if the table is too wide.
+
+---
+
+## 17. Prompt for Figure Caption
+
+Write a clear academic caption for the following figure.
+
+Figure description:
+[DESCRIBE FIGURE]
+
+The caption should:
+
+1. Explain what the figure shows.
+2. Mention the main components.
+3. Explain the flow or relationship.
+4. Be suitable for a research paper.
+5. Avoid being too long.
+
+Give 3 caption options:
+
+* Short
+* Medium
+* Detailed
+
+---
+
+## 18. Prompt for Checking Paper Consistency
+
+Check the following paper content for consistency.
+
+Text:
+[PASTE PAPER OR SECTION]
+
+Check:
+
+1. Terminology consistency.
+2. RQ-method-result alignment.
+3. Contribution-method alignment.
+4. Dataset and result consistency.
+5. Citation consistency.
+6. Table and figure reference consistency.
+7. Repeated or contradictory statements.
+8. Missing explanations.
+9. Overclaimed statements.
+
+Output:
+
+1. Issues found.
+2. Why each issue matters.
+3. Suggested correction.
+4. Priority: high, medium, low.
+
+---
+
+## 19. Prompt for Turning Code into Paper Methodology
+
+Convert the following code or notebook workflow into an academic methodology section.
+
+Code/workflow:
+[PASTE CODE OR DESCRIPTION]
+
+Explain:
+
+1. What the code does.
+2. What the input is.
+3. What preprocessing is performed.
+4. What model or algorithm is used.
+5. What parameters are used.
+6. What output is generated.
+7. How evaluation is done.
+8. How this can be written in a research paper.
+
+Do not invent theory beyond what the code supports.
+
+---
+
+## 20. Prompt for Research Gap Identification
+
+Identify research gaps from the following related work.
+
+Topic:
+[WRITE TOPIC]
+
+Related work summaries:
+[PASTE SUMMARIES]
+
+Find:
+
+1. Common methods used.
+2. Common datasets used.
+3. Common evaluation metrics.
+4. Limitations repeatedly mentioned.
+5. Underexplored areas.
+6. Contradictions or inconsistencies.
+7. Possible research gaps.
+8. Which gap is strongest for a paper.
+
+Do not invent gaps. Every gap must be supported by the provided literature summaries.
