@@ -1,0 +1,38 @@
+Explain the uploaded paper in the simplest and shortest way possible while still covering the important ideas.
+
+Follow these rules:
+
+1. Use only the uploaded paper. Do not add outside knowledge or guess.
+2. Explain the heart of the paper: what problem it solves, why it matters, what method it uses, what results it gets, and what the main takeaway is.
+3. Keep the explanation very concise and easy to understand.
+4. Avoid long technical details unless they are essential.
+5. If the paper uses equations, algorithms, models, datasets, or experiments, explain only their main purpose in simple words.
+6. Mention the key contributions, main findings, limitations, and conclusion.
+7. If something is not clearly stated in the paper, write: “The paper does not explicitly state this.”
+8. End with 5–7 bullet-point notes that capture the most important things to remember.
+
+Structure the response like this:
+
+**1. One-line summary**
+What is the paper mainly about?
+
+**2. Problem**
+What problem is the paper trying to solve?
+
+**3. Main idea**
+What is the core idea or method?
+
+**4. Method in simple words**
+How does the paper do it?
+
+**5. Results**
+What did the authors find?
+
+**6. Limitations**
+What are the weaknesses or gaps?
+
+**7. Final takeaway**
+What should I remember from this paper?
+
+**8. Quick notes**
+Give short bullet-point notes for revision.
